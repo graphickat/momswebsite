@@ -18,16 +18,25 @@
 	<!-- Main -->
 	<div id="main" style="margin-left: 0%;">
 
-		<!-- Intro -->
-		<section id="top" class="one dark cover" style="background-image: url(./images/banner.jpg);">
+		<style>
+			#top {
+			  background-image: url(./images/banner.jpg);
+			  background-size: cover; /* This ensures the image covers the entire container */
+			  background-position: center; /* Center the image within the container */
+			  background-repeat: no-repeat; /* Prevent the image from repeating */
+			  height: 600px; /* Set a fixed height for the section */
+			}
+		  </style>
+		  
+		  <!-- Intro -->
+		  <section id="top" class="one dark cover">
 			<div class="container">
-
-				<header>
-					<h2 class="alt">Welcome to <strong>AnnieVillanueva</strong>.com</h2>
-				</header>
-
+			  <header>
+				<h2 class="alt">Welcome to <strong>AnnieVillanueva</strong>.com</h2>
+			  </header>
 			</div>
-		</section>
+		  </section>
+		  
 
 		<!-- Portfolio -->
 		<section id="portfolio" class="two">
@@ -37,7 +46,7 @@
 					<h2>Portfolio</h2>
 				</header>
 
-				<p>Click on each of the options below to explore my photos from that state.</p>
+				<p>Click on each of the options below to explore my photofraphy of that state.</p>
 
 				<div class="row">
 					<div class="col-4 col-12-mobile">
